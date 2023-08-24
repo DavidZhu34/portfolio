@@ -82,7 +82,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack bg-white/10 text-white/60"
-          href="https://linkedin.com/david-zidong-zhu"
+          href="https://linkedin.com/in/david-zidong-zhu"
           target="_blank"
         >
           <BsLinkedin />
