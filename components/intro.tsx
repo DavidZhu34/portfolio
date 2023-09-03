@@ -18,7 +18,7 @@ export default function Intro() {
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopyClick = () => {
-    const email = "zidongzhu@berkeley.edu";
+    const email = "zidongzhu@gmail.com";
     navigator.clipboard.writeText(email).then(() => {
       setIsCopied(true);
       setTimeout(() => setIsCopied(false), 2000); // Reset the copied state after 2 seconds
@@ -29,7 +29,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="text-left sm:mt-0 scroll-mt-[100rem] lg:mb-40 lg:mt-20"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -41,21 +41,12 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
-              src="/head.jpg"
-              alt="David portrait"
-              width="202"
-              height="202"
-              quality="100"
-              priority={true}
-              className="rounded-full object-cover border-[0.35rem]"
-            />
           </motion.div>
         </div>
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-4xl font-large !leading-[1.5] sm:text-7xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -64,7 +55,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-left gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -73,7 +64,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack bg-white/10"
-          href="/David_Zhu Resume.pdf"
+          href="/David Zhu Resume.pdf"
           download
         >
           Download CV{" "}
@@ -99,7 +90,7 @@ export default function Intro() {
         className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack bg-white/10"
         onClick={handleCopyClick}
         >
-        {isCopied ? "Copied Email to Clipboard!" : "zidongzhu@berkeley.edu"}
+        {isCopied ? "Copied Email to Clipboard!" : "zidongzhu@gmail.com"}
         </a>
       </motion.div>
     </section>
