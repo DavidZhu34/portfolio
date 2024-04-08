@@ -23,17 +23,20 @@ export default function About() {
       <SectionHeading>About</SectionHeading>
       <div className="flex flex-col-reverse sm:flex-row items-center justify-center gap-40">
       <p className="mb-3">
-        Before I dove into a life of development, I taught improvisational theory piano during undergrad as a sponsored student instructor, kickstarted a 
+        Before I dove into a life of development, I taught improvisational theory piano at UC Berkeley, kickstarted a 
         band, and performed in venues around the Bay Area. <br/>
         <br/>
 
         In <span className="font-bold"> May 2022</span>, I received my B.S. in <span className="font-bold">Business Administration</span> from
-        <span className="font-bold"> UC Berkeley's Haas School of Business</span>. Fueled by a curiosity to explore the 
-        applications of technology, I continued my education to receive my second Bachelors in <span className="font-bold">Computer Science </span>
+        <span className="font-bold"> UC Berkeley's Haas School of Business</span>. I continued my education to receive my second Bachelors in <span className="font-bold">Computer Science </span>
         from the <span className="font-bold">College of Engineering</span> in <span className="font-bold">December 2022</span>.
-        Since then, I've pursued my passion for programming and design, quickly absorbing new concepts and tackling new challenges with a positive attitude.<br/>
+        Since then, I've interned at startups around the Bay Area, working in both Fullstack and Frontend Development roles.<br/>
         <br/>
-        In my spare time, I love to explore new frameworks and technologies, as well as continuing to compose and perform on the piano. I imagine I'll teach again in my old age.
+        In my spare time, I love to explore new frameworks and technologies. I'm currently building web apps using Next.js and Tailwind.css (such as this portfolio)
+        and exploring the usage of AI integrations. 
+        <br/>
+        <br/>
+        I still compose and play piano around the area occassionally. I imagine I'll teach again in my old age.
 
       </p>
       <motion.div
