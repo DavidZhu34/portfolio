@@ -8,6 +8,7 @@ import pacman from "@/public/pacman.png";
 import bearmaps from "@/public/bearmaps.png";
 import git from "@/public/git.png";
 import enigma from "@/public/enigma.png"
+import algoverse from "@/public/algoverse.png"
 
 export const links = [
   {
@@ -34,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "What I'm Learning Now...",
+    title: "Product Manager | Algoverse AI Research",
     location: "",
     description:
-      "Currently learning to build modern web apps with Next.js and Tailwind.css, as well as exploring OpenAI integrations. Always leetcoding from time to time. Recently built a mock-financial dashboard through the Next.js Fullstack Course.",
+      "Currently building the next generation of AI Researchers through the Algoverse AI Research Program, a 12-week program for high school and college students to receive mentorship from PhD AI researchers at top universities.",
     icon: React.createElement(FaReact),
-    date: "Aug. 2023 - Present",
+    date: "Apr. 2024 - Present",
   },
   {
     title: "Branch Metrics | Software Engineer Intern",
@@ -84,6 +85,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Algoverse AI Research 🔎",
+    description:
+      "Website for Algoverse AI Research. <a href='https://algoverseairesearch.org/' target='_blank'>https://algoverseairesearch.org/</a>",
+    tags: ["Next.js", "Tailwind", "Framer Motion", "Google Analytics"],
+    imageUrl: algoverse,
+    href: "https://algoverseairesearch.org/"
+  },
   {
     title: "Financial Dashboard 📈",
     description:
@@ -133,23 +142,21 @@ export const projectsData = [
 ] as const; 
 
 export const skillsData = [
+  
+  "A/B Testing",
+  "Google Analytics",
+  "Data Visualization",
+  "Attribution Marketing",
+  "Cloudflare",
   "Python",
-  "JavaScript",
-  "TypeScript",
+  "JavaScript/TypeScript",
   "Java",
   "SQL",
-  "Go",
   "React",
-  "HTML",
-  "CSS",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Express",
-  "Angular",
-  "Firebase",
   "AWS",
   "Framer Motion",
-  "Kubernetes"
+  "Kubernetes",
 ] as const;

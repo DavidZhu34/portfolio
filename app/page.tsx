@@ -9,7 +9,7 @@ import Projects from "@/components/projects";
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col items-left px-40">
+      <div className="flex flex-col items-center">
         <Intro />
       </div>
       <div className="flex flex-col items-center px-4">

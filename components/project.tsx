@@ -30,10 +30,10 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] transition text-white bg-white/10 hover:bg-white/20">
+      <section className="bg-gray-100 max-w-[42rem] rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] transition text-black bg-black/5 hover:bg-black/10">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full">
           <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700 text-white/70" dangerouslySetInnerHTML={{ __html: description }}>
+          <p className="mt-2 leading-relaxed text-gray-700 text-black/70" dangerouslySetInnerHTML={{ __html: description }}>
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (

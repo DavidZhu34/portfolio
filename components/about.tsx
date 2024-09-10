@@ -21,23 +21,14 @@ export default function About() {
     >
 
       <SectionHeading>About</SectionHeading>
-      <div className="flex flex-col-reverse sm:flex-row items-center justify-center gap-40">
-      <p className="mb-3">
-        Before I dove into a life of development, I taught improvisational theory piano at UC Berkeley, kickstarted a 
-        band, and performed in venues around the Bay Area. <br/>
-        <br/>
-
-        In <span className="font-bold"> May 2022</span>, I received my B.S. in <span className="font-bold">Business Administration</span> from
-        <span className="font-bold"> UC Berkeley's Haas School of Business</span>. I continued my education to receive my second Bachelors in <span className="font-bold">Computer Science </span>
-        from the <span className="font-bold">College of Engineering</span> in <span className="font-bold">December 2022</span>.
-        Since then, I've interned at startups around the Bay Area, working in both Fullstack and Frontend Development roles.<br/>
-        <br/>
-        In my spare time, I love to explore new frameworks and technologies. I'm currently building web apps using Next.js and Tailwind.css (such as this portfolio)
-        and exploring the usage of AI integrations. 
-        <br/>
-        <br/>
-        I still compose and play piano around the area occassionally. I imagine I'll teach again in my old age.
-
+      <div className="flex flex-col-reverse sm:flex-row items-center justify-center gap-40 bg-gray-100 px-20 py-20 rounded-lg">
+      <p className="leading-8 mb-3 text-lg">
+      I'm a Business Administration and Computer Science graduate from UC Berkeley, as well as an improvisational pianist. <br/><br/>
+During my undegraduate studies, I founded a class where I taught music composition and improvisational theory. Learning to improvise and engage with an audience has fueled my passion in using creativity and data to understand people and their needs. 
+<br/><br/>
+Whether in business or the arts, I am endlessly learning and creating something new, applying my lived experiences as an artist, an entrepreneur, a programmer, and a student.
+<br/><br/>
+I still perform around the Bay Area from time to time. I imagine I'll teach again in my old age.
       </p>
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
@@ -50,16 +41,16 @@ export default function About() {
         <Image
           src="/grand-piano.png"
           alt="David portrait"
-          width="1000"
-          height="1000"
+          width="600"
+          height="600"
           quality="100"
           priority={true}
         />
         <Image
           src="/programming.png"
           alt="David portrait"
-          width="1000"
-          height="1000"
+          width="600"
+          height="600"
           quality="100"
           priority={true}
         />
