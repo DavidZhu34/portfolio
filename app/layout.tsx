@@ -18,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <meta name="trustpilot-one-time-domain-verification-id" content="9a0939b2-3dd2-45b9-ab8a-7d4112d9fae0"/>
       <body
         className={`${inter.className} relative pt-28 sm:pt-36 bg-white text-gray-800 text-opacity-90`}
       >
